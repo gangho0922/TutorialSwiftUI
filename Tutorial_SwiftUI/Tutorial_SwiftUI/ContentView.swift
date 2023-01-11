@@ -12,7 +12,6 @@ struct ContentView: View {
     @State var age = ""
     @State var kk = ""
     
-    
     var body: some View {
         NavigationView{
             Form{
@@ -26,7 +25,6 @@ struct ContentView: View {
                 }
                 Section{
                     TextField("특징을 입력해주세요", text: $kk)
-                    Text("dd    ")
                 }
                 Section{
                     Text("\(name)님의 나이는 \(age)살입니다. 특징은 \(kk)입니다.")

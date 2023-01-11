@@ -11,6 +11,7 @@
 		3D19D54C296DAD4E00ECEFFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19D54B296DAD4E00ECEFFF /* ContentView.swift */; };
 		3D19D54E296DAD4E00ECEFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D19D54D296DAD4E00ECEFFF /* Assets.xcassets */; };
 		3D19D551296DAD4E00ECEFFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D19D550296DAD4E00ECEFFF /* Preview Assets.xcassets */; };
+		3D19D558296ECDB000ECEFFF /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19D557296ECDB000ECEFFF /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3D19D54B296DAD4E00ECEFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D19D54D296DAD4E00ECEFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D19D550296DAD4E00ECEFFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D19D557296ECDB000ECEFFF /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3D19D549296DAD4E00ECEFFF /* Tutorial_SwiftUIApp.swift */,
 				3D19D54B296DAD4E00ECEFFF /* ContentView.swift */,
+				3D19D557296ECDB000ECEFFF /* SignupView.swift */,
 				3D19D54D296DAD4E00ECEFFF /* Assets.xcassets */,
 				3D19D54F296DAD4E00ECEFFF /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D19D558296ECDB000ECEFFF /* SignupView.swift in Sources */,
 				3D19D54C296DAD4E00ECEFFF /* ContentView.swift in Sources */,
 				3D19D54A296DAD4E00ECEFFF /* Tutorial_SwiftUIApp.swift in Sources */,
 			);
