@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct NatureDetail: View {
-   let nature: Nature
+    @State var pressure: Bool = false
+    let nature: Nature
     var body: some View {
         VStack{
             Image(nature.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-        }
+                .onTapGesture(count: 2 ,perform: {
+                    self.pressure = true
+                })
+            Text(nature.name)
+        }.alert(isPresented: $pressure, content: {
+            Alert(title: Text("더블클릭"), message: Text("하셨습니다!"), dismissButton: .default(Text("OK")))
+        })
     }
 }
 
