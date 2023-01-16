@@ -20,6 +20,7 @@
 		3D19D5642972E8EE00ECEFFF /* toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19D5632972E8EE00ECEFFF /* toggle.swift */; };
 		3D19D5702972ED1400ECEFFF /* Countrepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19D56F2972ED1400ECEFFF /* Countrepo.swift */; };
 		3D19D5722972ED8900ECEFFF /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19D5712972ED8900ECEFFF /* Count.swift */; };
+		3D19D5742975723600ECEFFF /* AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19D5732975723600ECEFFF /* AnimateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		3D19D5632972E8EE00ECEFFF /* toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toggle.swift; sourceTree = "<group>"; };
 		3D19D56F2972ED1400ECEFFF /* Countrepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countrepo.swift; sourceTree = "<group>"; };
 		3D19D5712972ED8900ECEFFF /* Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
+		3D19D5732975723600ECEFFF /* AnimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				3D19D5712972ED8900ECEFFF /* Count.swift */,
 				3D19D54D296DAD4E00ECEFFF /* Assets.xcassets */,
 				3D19D54F296DAD4E00ECEFFF /* Preview Content */,
+				3D19D5732975723600ECEFFF /* AnimateView.swift */,
 			);
 			path = Tutorial_SwiftUI;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				3D19D55E2971758700ECEFFF /* NapicView.swift in Sources */,
 				3D19D558296ECDB000ECEFFF /* SignupView.swift in Sources */,
 				3D19D5642972E8EE00ECEFFF /* toggle.swift in Sources */,
+				3D19D5742975723600ECEFFF /* AnimateView.swift in Sources */,
 				3D19D54C296DAD4E00ECEFFF /* ContentView.swift in Sources */,
 				3D19D54A296DAD4E00ECEFFF /* Tutorial_SwiftUIApp.swift in Sources */,
 				3D19D5602971769500ECEFFF /* NatureCell.swift in Sources */,
